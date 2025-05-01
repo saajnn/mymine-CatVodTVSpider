@@ -1,27 +1,27 @@
 {
-  "spider": "https://androidcatvodspider.pages.dev/jar/custom_spider.jar;md5;fc8f8fde90c2943674e0e38b00053bd5",
+  "spider": "https://androidcatvodspider.netlify.app/jar/custom_spider.jar;md5;35779f941df038cdb78a3ca45bdfe22b",
   "lives": [
+    {
+      "name": "电视直播",
+      "type": "0",
+      "pass": true,
+      "url": "https://ghfast.top/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "网络直播",
+      "type": "0",
+      "pass": true,
+      "url": "https://tv.iill.top/m3u/Live",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "直播",
       "type": "0",
       "pass": true,
-      "url": "https://ghp.ci/https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "直播ipv6",
-      "type": "0",
-      "pass": true,
-      "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "一木",
-      "type": "0",
-      "pass": true,
-      "url": "https://ghp.ci/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E7%9B%B4%E6%92%AD%E6%BA%90.txt",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -37,7 +37,7 @@
   "sites": [
     {
       "key": "Introduce",
-      "name": "注意事项",
+      "name": "Cookie设置",
       "type": 3,
       "api": "csp_Introduce"
     },
@@ -67,10 +67,90 @@
       "ext": "{\"site\": [\"https://www.wogg.net/\",\"https://wogg.xxooo.cf/\"]}"
     },
     {
-      "key": "木偶",
-      "name": "木偶哥哥",
+      "key": "欧歌",
+      "name": "欧歌|Pan",
       "type": 3,
       "api": "csp_Mogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "多多影音",
+      "name": "多多影音|Pan",
+      "type": 3,
+      "api": "csp_DuoDuo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://tv.yydsys.top/\"]}"
+    },
+    {
+      "key": "蜡笔盘盘",
+      "name": "蜡笔盘盘|Pan",
+      "type": 3,
+      "api": "csp_NaBi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://duopan.fun/\"]}"
+    },
+    {
+      "key": "闪电优汐",
+      "name": "闪电优汐|Pan",
+      "type": 3,
+      "api": "csp_ShanDian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://1.95.79.193/\"]}"
+    },
+    {
+      "key": "特下饭",
+      "name": "特下饭|Pan",
+      "type": 3,
+      "api": "csp_TeXiaFan",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://www.xn--ghqy10g1w0a.xyz/\",\"http://www.txfyyda.top/\",]}"
+    },
+    {
+      "key": "小米",
+      "name": "小米UC|Pan",
+      "type": 3,
+      "api": "csp_XiaoMi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://mucpan.cc/\",\"http://milvdou.fun/\"]}"
+    },
+    {
+      "key": "至臻视觉",
+      "name": "至臻视觉|Pan",
+      "type": 3,
+      "api": "csp_ZhiZhen",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://mihdr.top/\"]}"
+    },
+    {
+      "key": "PanTa",
+      "name": "盘他|Pan",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "BiXin",
+      "name": "彼心|Pan",
+      "type": 3,
+      "api": "csp_BiXin",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },  {
+      "key": "TgSearch",
+      "name": "TgSearch|Pan",
+      "type": 3,
+      "api": "csp_TgSearch",
       "searchable": 1,
       "changeable": 1,
       "ext": {}
@@ -83,7 +163,8 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    }, {
+    },
+    {
       "key": "DianYingYunJi",
       "name": "电影云集",
       "type": 3,
@@ -101,7 +182,15 @@
       "changeable": 1,
       "ext": {}
     },
-
+    {
+      "key": "云盘资源网",
+      "name": "云盘资源网",
+      "type": 3,
+      "api": "csp_YunPanZiYuan",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": ""
+    },
     {
       "key": "XuanFeng",
       "name": "旋风影视",
@@ -251,7 +340,7 @@
       "changeable": 0,
       "ext": {}
     },
-     {
+    {
       "key": "YunPanBa",
       "name": "云盘吧",
       "type": 3,
@@ -276,9 +365,17 @@
       "timeout": 30
     },
     {
+      "key": "TianYiSo",
+      "name": "天翼┃搜索",
+      "type": 3,
+      "api": "csp_TianYiSo",
+      "searchable": 1,
+      "timeout": 30
+    },
+    {
       "key": "newvision",
       "name": "(js)新视觉影院(不稳定)",
-      "api": "https://androidcatvodspider.pages.dev/json/js/newvision.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/newvision.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -289,7 +386,7 @@
     {
       "key": "kankan70",
       "name": "(js)70看看┃📺",
-      "api": "https://androidcatvodspider.pages.dev/json/js/kankan70.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/kankan70.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -300,7 +397,7 @@
     {
       "key": "jpyy",
       "name": "(js)金牌影院",
-      "api": "https://androidcatvodspider.pages.dev/json/js/jpyy.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/jpyy.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -311,7 +408,7 @@
     {
       "key": "jpyy2",
       "name": "(js)金牌影院",
-      "api": "https://androidcatvodspider.pages.dev/json/js/jpyy2.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/jpyy2.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -322,7 +419,7 @@
     {
       "key": "tiantian",
       "name": "(js)天天影视┃⛄",
-      "api": "https://androidcatvodspider.pages.dev/json/js/tiantian.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/tiantian.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -333,7 +430,7 @@
     {
       "key": "xb6v",
       "name": "(js)磁力新6V┃🧲",
-      "api": "https://androidcatvodspider.pages.dev/json/js/xb6v.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/xb6v.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -344,7 +441,7 @@
     {
       "key": "mp4movie",
       "name": "(js)Mp4电影┃🍚",
-      "api": "https://androidcatvodspider.pages.dev/json/js/mp4movie.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/mp4movie.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -355,7 +452,7 @@
     {
       "key": "jianpian",
       "name": "(js)荐片┃🌼",
-      "api": "https://androidcatvodspider.pages.dev/json/js/jianpian.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/jianpian.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -366,7 +463,7 @@
     {
       "key": "alipansou",
       "name": "(js)阿里猫狸┃😸",
-      "api": "https://androidcatvodspider.pages.dev/json/js/alipansou.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/alipansou.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -379,7 +476,7 @@
     {
       "key": "huya",
       "name": "(js)虎牙直播┃🐯",
-      "api": "https://androidcatvodspider.pages.dev/json/js/huya.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/huya.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -390,7 +487,7 @@
     {
       "key": "star",
       "name": "(js)星视界┃墙☄️",
-      "api": "https://androidcatvodspider.pages.dev/json/js/star.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/star.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -401,7 +498,7 @@
     {
       "key": "nivod",
       "name": "(js)泥视频┃墙👑",
-      "api": "https://androidcatvodspider.pages.dev/json/js/nivod.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/nivod.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -413,7 +510,7 @@
     {
       "key": "aiyingshi",
       "name": "(js)爱影视┃🚀",
-      "api": "https://androidcatvodspider.pages.dev/json/js/aiyingshi.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/aiyingshi.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -424,7 +521,7 @@
     {
       "key": "sp360",
       "name": "(js)360影视┃🥎",
-      "api": "https://androidcatvodspider.pages.dev/json/js/sp360.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/sp360.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -435,7 +532,7 @@
     {
       "key": "mxanime",
       "name": "(js)MX动漫┃🍒",
-      "api": "https://androidcatvodspider.pages.dev/json/js/mxanime.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/mxanime.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -446,7 +543,7 @@
     {
       "key": "cntv",
       "name": "(js)中央影视┃🤵‍♂️",
-      "api": "https://androidcatvodspider.pages.dev/json/js/cntv.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/cntv.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -457,7 +554,7 @@
     {
       "key": "douban",
       "name": "(js)豆瓣┃🍥",
-      "api": "https://androidcatvodspider.pages.dev/json/js/douban.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/douban.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -468,7 +565,7 @@
     {
       "key": "pan_search",
       "name": "(js)阿里盘搜┃🗂️",
-      "api": "https://androidcatvodspider.pages.dev/json/js/pan_search.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/pan_search.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -481,7 +578,7 @@
     {
       "key": "bilibili",
       "name": "(js)哔哩哔哩┃🏰",
-      "api": "https://androidcatvodspider.pages.dev/json/js/bilibili.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/bilibili.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -493,7 +590,7 @@
     {
       "key": "changzhang",
       "name": "(js)厂长直连┃🏭️",
-      "api": "https://androidcatvodspider.pages.dev/json/js/changzhang.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/changzhang.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -506,7 +603,7 @@
     {
       "key": "wogg",
       "name": "(js)阿里玩偶┃💂",
-      "api": "https://androidcatvodspider.pages.dev/json/js/wogg.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/wogg.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -519,7 +616,7 @@
     {
       "key": "nangua",
       "name": "(js)南瓜影视┃🎃",
-      "api": "https://androidcatvodspider.pages.dev/json/js/nangua.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/nangua.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -530,7 +627,7 @@
     {
       "key": "aliyunpanshare",
       "name": "(js)阿里云盘分享┃🥏‍",
-      "api": "https://androidcatvodspider.pages.dev/json/js/aliyunpanshare.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/aliyunpanshare.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -543,7 +640,7 @@
     {
       "key": "dubo",
       "name": "(js)独播影视┃🛶",
-      "api": "https://androidcatvodspider.pages.dev/json/js/dubo.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/dubo.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -554,7 +651,7 @@
     {
       "key": "haiwaikan",
       "name": "(js)海外看┃☕墙",
-      "api": "https://androidcatvodspider.pages.dev/json/js/haiwaikan.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/haiwaikan.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -565,7 +662,7 @@
     {
       "key": "dygangs",
       "name": "(js)电影港┃🏖️",
-      "api": "https://androidcatvodspider.pages.dev/json/js/dygangs.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/dygangs.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -576,7 +673,7 @@
     {
       "key": "cilixiong",
       "name": "(js)磁力熊┃🐻",
-      "api": "https://androidcatvodspider.pages.dev/json/js/cilixiong.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/cilixiong.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -587,7 +684,7 @@
     {
       "key": "lovemovie",
       "name": "(js)爱情电影网┃💕",
-      "api": "https://androidcatvodspider.pages.dev/json/js/lovemovie.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/lovemovie.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
@@ -598,7 +695,7 @@
     {
       "key": "gitcafe",
       "name": "(js)阿里纸条┃🦊",
-      "api": "https://androidcatvodspider.pages.dev/json/js/gitcafe.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/gitcafe.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox",
@@ -611,7 +708,7 @@
     {
       "key": "kuaikan",
       "name": "(js)快看视频┃🛥︎",
-      "api": "https://androidcatvodspider.pages.dev/json/js/kuaikan.js",
+      "api": "https://androidcatvodspider.netlify.app/json/js/kuaikan.js",
       "timeout": 30,
       "ext": {
         "box": "TVBox"
